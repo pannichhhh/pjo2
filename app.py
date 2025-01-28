@@ -1,10 +1,6 @@
-#from flask import Flask
-from flask import Flask
-from src.routes import *
+from helpers.utils import app 
+from src.routes import admin_route
 
 
-
-app = Flask(__name__)
-        
 if __name__ == '__main__':
     app.run(debug=True)
