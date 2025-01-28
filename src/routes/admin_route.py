@@ -10,7 +10,6 @@ def fixedasset():
     return execute_query('SELECT * FROM "Asset"')
 
 
-
 @app.route('/GET/Emp')
 def emp():
     return execute_query('SELECT * FROM "EmpDetail"')
