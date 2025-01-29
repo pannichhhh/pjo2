@@ -20,3 +20,5 @@ def execute_query(query, params=None):
         return f'Fetched data: {rows}'
     except Exception as e:
         return f'Error: {str(e)}'
+
+
